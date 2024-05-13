@@ -1,0 +1,57 @@
+:root {
+    --bgx-color: #ff000056;
+    --bgo-color: #44ff0049;
+    --x-color: #aa0a0a;
+    --o-color: #34990f;
+}
+
+.color-x-td {
+    background-color: var(--bgx-color);
+    color: var(--x-color);
+}
+
+.color-o-td {
+    background-color: var(--bgo-color);
+    color: var(--o-color);
+}
+
+#board-game>#board {
+    border-collapse: collapse;
+    margin: 8% auto;
+}
+
+#board>th,
+td {
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#StartGame {
+    margin: 0 auto;
+}
+
+#scoring-table {
+    display: flex;
+    justify-content: space-around;
+}
+
+#scoring-table #score-x {
+    color: #aa0a0a;
+}
+
+#scoring-table #score-o {
+    color: #34990f;
+}
+
+#scoring-table h2 {
+    display: inline-block;
+    margin-right: 20px;
+    /* Điều chỉnh khoảng cách giữa các hộp chữ */
+}
+
+#scoring-table .score {
+    text-align: center;
+}
